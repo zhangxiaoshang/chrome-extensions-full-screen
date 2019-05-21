@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Full Screen",
+  "version": "1.0",
+
+  "description": "Full Screen",
+
+  "browser_action": {
+    "default_title": "Full Screen",
+    "default_icon": "full.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab"]
+}
